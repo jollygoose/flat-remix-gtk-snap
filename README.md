@@ -5,8 +5,8 @@ Snap package of the [Flat Remix GTK theme](https://github.com/daniruiz/flat-remi
 ## Installing locally
 
 Requires
-* ```snapcraft```
-* ```multipass```
+* snapcraft (```snap install snapcraft```)
+* multipass (```snap install multipass```)
 
 ```sh
 git clone https://github.com/jollygoose/flat-remix-gtk-snap
@@ -43,7 +43,7 @@ sudo snap connect NAME_OF_YOUR_APP:gtk-2-themes flat-remix-gtk:gtk-2-themes
 sudo snap connect NAME_OF_YOUR_APP:gtk-3-themes flat-remix-gtk:gtk-3-themes
 ```
 
-To apply to all gtk2 or gtk3 applications
+To apply to all gtk2 or gtk3 applications (thanks to @flexiondotorg for the handy loop)
 
 ```bash
 # gtk2
