@@ -1,0 +1,129 @@
+name: flat-remix-gtk
+version: "20201129"
+base: core18
+license: GPL-3.0
+grade: stable
+confinement: strict
+architectures:
+  - all
+summary: Flat Remix GTK theme
+description: |
+  Flat Remix is a GTK application theme inspired by material design. 
+  Is is mostly flat using a colorful palette with some shadows, highlights, and gradients for some depth.
+
+  Themes:
+    • Flat Remix GTK
+    • Flat Remix GTK Dark
+    • Flat Remix GTK Darker
+    • Flat Remix GTK Darkest
+
+  Variants:
+    • Solid: Theme without transparency
+    • No Border: Darkest theme without white window border
+
+slots:
+  gtk-2-themes:
+    interface: content
+    source:
+      read:
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darker
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darker-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darkest-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Solid
+
+        - $SNAP/share/themes/Flat-Remix-GTK-Green
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darker
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darker-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest-Solid-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Solid
+
+        - $SNAP/share/themes/Flat-Remix-GTK-Red
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darker
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darker-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest-Solid-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Solid
+
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darker
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darker-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darkest-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darkest-Solid-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Solid
+
+  gtk-3-themes:
+    interface: content
+    source:
+      read:
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darker
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darker-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darkest-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Solid
+
+        - $SNAP/share/themes/Flat-Remix-GTK-Green
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darker
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darker-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest-Solid-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Solid
+
+        - $SNAP/share/themes/Flat-Remix-GTK-Red
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darker
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darker-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest-Solid-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Solid
+
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darker
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darker-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darkest-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Darkest-Solid-NoBorder
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Solid
+
+parts:
+  theme:
+    plugin: dump
+    source: https://github.com/daniruiz/flat-remix-gtk/archive/refs/tags/20201129.tar.gz
+    organize:
+      Flat-Remix-GTK-*: share/themes/
+    stage:
+      - share/themes/*/gtk-*
+      
