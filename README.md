@@ -1,4 +1,4 @@
-Snap package for the [Flat Remix GTK theme](https://github.com/daniruiz/flat-remix-gtk) by daniruiz.
+Snap package of the [Flat Remix GTK theme](https://github.com/daniruiz/flat-remix-gtk) by [daniruiz](https://github.com/daniruiz).
 
 ---
 
