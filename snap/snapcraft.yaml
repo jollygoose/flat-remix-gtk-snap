@@ -121,7 +121,9 @@ slots:
 parts:
   theme:
     plugin: dump
-    source: https://github.com/daniruiz/flat-remix-gtk/archive/refs/tags/20201129.tar.gz
+    source: .
+    override-pull: |
+      git clone https://github.com/daniruiz/flat-remix-gtk.git $SNAPCRAFT_PART_SRC
     organize:
       Flat-Remix-GTK-*: share/themes/
     stage:
