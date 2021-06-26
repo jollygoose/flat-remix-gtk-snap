@@ -9,10 +9,10 @@ architectures:
 summary: Flat Remix GTK theme
 description: |
   Flat Remix is a GTK application theme inspired by material design. 
-  Is is mostly flat using a colorful palette with some shadows, highlights, and gradients for some depth.
+  It is mostly flat, using a colorful palette with some shadows, highlights, and gradients for some depth.
 
   Themes:
-    • Flat Remix GTK
+    • Flat Remix GTK (Light)
     • Flat Remix GTK Dark
     • Flat Remix GTK Darker
     • Flat Remix GTK Darkest
@@ -121,7 +121,7 @@ slots:
 parts:
   theme:
     plugin: dump
-    source: https://github.com/daniruiz/flat-remix-gtk/archive/refs/tags/20201129.tar.gz
+    source: https://github.com/daniruiz/flat-remix-gtk/archive/refs/tags/$SNAPCRAFT_PROJECT_VERSION.tar.gz
     organize:
       Flat-Remix-GTK-*: share/themes/
     stage:
