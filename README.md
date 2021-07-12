@@ -1,7 +1,5 @@
 Snap package of the [Flat Remix GTK theme](https://github.com/daniruiz/flat-remix-gtk) by [@daniruiz](https://github.com/daniruiz).
 
-[![flat-remix-gtk](https://snapcraft.io/flat-remix-gtk/badge.svg)](https://snapcraft.io/flat-remix-gtk)
-
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/flat-remix-gtk)
 
 ---
@@ -11,11 +9,14 @@ Snap package of the [Flat Remix GTK theme](https://github.com/daniruiz/flat-remi
 All credit goes to the developers of the Flat Remix GTK project.
 https://github.com/daniruiz/flat-remix-gtk
 
-## Building the snap locally
+## Building locally
 
-Requires
-* snapcraft (```snap install snapcraft```)
-* multipass (```snap install multipass```)
+### Requirements
+
+* [snapcraft](https://snapcraft.io/snapcraft) (```snap install snapcraft --classic```)
+* [multipass](https://snapcraft.io/multipass) (```snap install multipass```)
+
+### Build
 
 ```sh
 git clone https://github.com/jollygoose/flat-remix-gtk-snap
@@ -23,9 +24,9 @@ cd flat-remix-gtk-snap
 
 snapcraft
 
-# where CURRENT is the latest version of flat-remix-gtk
-# and --dangerous since this local snap hasn't been verified
-snap install flat-remix-gtk_CURRENT_all.snap --dangerous
+# where [current-version] is the latest version/release of in the in snapcraft.yaml file.
+# The --dangerous is used since this snap was built locally and does not originate from the snap store
+snap install flat-remix-gtk_[current-version]_all.snap --dangerous
 ```
 
 ## Applying the theme

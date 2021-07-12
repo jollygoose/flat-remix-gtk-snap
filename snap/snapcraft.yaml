@@ -1,5 +1,5 @@
 name: flat-remix-gtk
-version: "20201129"
+adopt-info: theme
 base: core18
 license: GPL-3.0
 grade: stable
@@ -121,9 +121,15 @@ slots:
 parts:
   theme:
     plugin: dump
-    source: https://github.com/daniruiz/flat-remix-gtk/archive/refs/tags/$SNAPCRAFT_PROJECT_VERSION.tar.gz
+    source: .
+    build-packages:
+      - git
+    override-pull: |
+      git clone https://github.com/daniruiz/flat-remix-gtk.git
+      cd flat-remix-gtk
+      snapcraftctl set-version "$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)"
+      git checkout $SNAPCRAFT_PROJECT_VERSION
     organize:
-      Flat-Remix-GTK-*: share/themes/
+      flat-remix-gtk/Flat-Remix-GTK-*: share/themes/
     stage:
-      - share/themes/*/gtk-*
-      
+      - share/themes/*
