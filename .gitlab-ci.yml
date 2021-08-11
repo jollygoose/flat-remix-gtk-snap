@@ -10,7 +10,7 @@ snap:
 
 test-snap:
   stage: test
-  variables:
-    GIT_CLEAN_FLAGS: none
   script:
     - review-tools.snap-review *.snap
+  dependencies:
+    - snap
