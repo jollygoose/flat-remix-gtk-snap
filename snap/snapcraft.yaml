@@ -125,6 +125,9 @@ parts:
     build-packages:
       - git
     override-pull: |
+      if [ -d "flat-remix-gtk" ]; then
+        rm -rf flat-remix-gtk
+      fi
       git clone https://github.com/daniruiz/flat-remix-gtk.git
       cd flat-remix-gtk
       snapcraftctl set-version "$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)"
