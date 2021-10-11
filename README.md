@@ -22,7 +22,7 @@ https://github.com/daniruiz/flat-remix-gtk
 git clone https://github.com/jollygoose/flat-remix-gtk-snap
 cd flat-remix-gtk-snap
 
-snapcraft
+snapcraft clean && snapcraft
 
 # where [current-version] is the latest version/release of in the in snapcraft.yaml file.
 # The --dangerous is used since this snap was built locally and does not originate from the snap store
