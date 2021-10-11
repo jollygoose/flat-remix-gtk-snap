@@ -8,4 +8,4 @@ before_script:
 lint:
   stage: test
   script:
-    - yamllint snap/snapcraft.yml
+    - yamllint snap/snapcraft.yaml
