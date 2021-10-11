@@ -1,3 +1,4 @@
+---
 name: flat-remix-gtk
 adopt-info: theme
 base: core18
@@ -8,10 +9,12 @@ architectures:
   - all
 summary: Flat Remix GTK theme
 description: |
-  Flat Remix is a GTK application theme inspired by material design. 
-  It is mostly flat, using a colorful palette with some shadows, highlights, and gradients for some depth.
+  Flat Remix is a GTK application theme inspired by material design.
+  It is mostly flat, using a colorful palette with some shadows,
+  highlights, and gradients for some depth.
 
-  This snap includes the 'old' themes from the previous version of Flat Remix GTK and the newest version which is a 
+  This snap includes the 'old' themes from the previous version of
+  Flat Remix GTK and the newest version which is a
   complete redesign based on Skeuos code.
 
 slots:
@@ -64,37 +67,37 @@ slots:
 
         - $SNAP/share/themes/Flat-Remix-GTK-Blue-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Blue-Dark
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Brown-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Brown-Dark
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Dark
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Green-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Grey-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Grey-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Orange-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Orange-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Red-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Teal-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Teal-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Violet-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Violet-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-White-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-White-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Light
   gtk-3-themes:
@@ -146,37 +149,37 @@ slots:
 
         - $SNAP/share/themes/Flat-Remix-GTK-Blue-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Blue-Dark
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Brown-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Brown-Dark
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Dark
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Green-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Grey-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Grey-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Orange-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Orange-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Red-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Teal-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Teal-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Violet-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Violet-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-White-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-White-Light
-        
+
         - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Dark
         - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Light
 parts:
