@@ -1,7 +1,7 @@
 Snap package of the [Flat Remix GTK theme](https://github.com/daniruiz/flat-remix-gtk) by [@daniruiz](https://github.com/daniruiz).
 
 
-[![flat-remix-gtk](https://snapcraft.io/flat-remix-gtk/badge.svg)](https://snapcraft.io/flat-remix-gtk)
+[![flat-remix-gtk](https://snapcraft.io/flat-remix-gtk/badge.svg)](https://snapcraft.io/flat-remix-gtk) [![flat-remix-gtk-snap workclow](https://github.com/jollygoose/flat-remix-gtk-snap/actions/workflows/main.yml/badge.svg)](https://github.com/jollygoose/flat-remix-gtk-snap/actions/workflows/main.yml)
 
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/flat-remix-gtk)
