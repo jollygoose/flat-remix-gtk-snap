@@ -63,43 +63,76 @@ slots:
         - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Solid
 
         - $SNAP/share/themes/Flat-Remix-GTK-Black-Light
-        - $SNAP/share/themes/Flat-Remix-GTK-Black-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Black-Light-Solid
 
-        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Light
-        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Dark
-
-        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Brown-Dark
-
-        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Dark
-
-        - $SNAP/share/themes/Flat-Remix-GTK-Green-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Grey-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Grey-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Grey-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Grey-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Grey-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Grey-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Orange-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Orange-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Orange-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Orange-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Orange-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Orange-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Red-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Teal-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Teal-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Teal-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Teal-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Teal-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Teal-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Violet-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Violet-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Violet-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Violet-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Violet-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Violet-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-White-Dark
-        - $SNAP/share/themes/Flat-Remix-GTK-White-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-White-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-White-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-White-Dark-Solid
 
-        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Dark
-        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Light
   gtk-3-themes:
     interface: content
     source:
@@ -145,43 +178,75 @@ slots:
         - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Solid
 
         - $SNAP/share/themes/Flat-Remix-GTK-Black-Light
-        - $SNAP/share/themes/Flat-Remix-GTK-Black-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Black-Light-Solid
 
-        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Light
-        - $SNAP/share/themes/Flat-Remix-GTK-Blue-Dark
-
-        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Light
         - $SNAP/share/themes/Flat-Remix-GTK-Brown-Dark
-
-        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Brown-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Dark
-
-        - $SNAP/share/themes/Flat-Remix-GTK-Green-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Cyan-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Dark-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-Green-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Grey-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Grey-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Grey-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Grey-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Grey-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Grey-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Magenta-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Orange-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Orange-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Orange-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Orange-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Orange-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Orange-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Red-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Red-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Teal-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Teal-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Teal-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Teal-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Teal-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Teal-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-Violet-Dark
+        - $SNAP/share/themes/Flat-Remix-GTK-Violet-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-Violet-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-Violet-Dark-Solid
         - $SNAP/share/themes/Flat-Remix-GTK-Violet-Light
-
+        - $SNAP/share/themes/Flat-Remix-GTK-Violet-Light-Solid
+        
         - $SNAP/share/themes/Flat-Remix-GTK-White-Dark
-        - $SNAP/share/themes/Flat-Remix-GTK-White-Light
-
-        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Dark
-        - $SNAP/share/themes/Flat-Remix-GTK-Yellow-Light
+        - $SNAP/share/themes/Flat-Remix-GTK-White-Darkest
+        - $SNAP/share/themes/Flat-Remix-GTK-White-Darkest-Solid
+        - $SNAP/share/themes/Flat-Remix-GTK-White-Dark-Solid
 parts:
   theme:
     plugin: dump
