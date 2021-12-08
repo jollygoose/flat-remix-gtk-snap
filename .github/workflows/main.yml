@@ -1,7 +1,7 @@
 ---
 # https://github.com/snapcore/action-build
 # https://github.com/snapcore/action-publish
-name: flat-remix-gtk-snap workclow
+name: flat-remix-gtk-snap workflow
 on:
   push:
     branches:
